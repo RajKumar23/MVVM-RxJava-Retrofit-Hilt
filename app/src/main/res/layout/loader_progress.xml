@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp">
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLoaderMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/loader"
+        android:layout_marginStart="5dp"
+        android:text="@string/loading"
+        android:textAppearance="?android:textAppearanceSmall"
+        app:layout_constraintBottom_toBottomOf="@+id/loader"
+        app:layout_constraintStart_toEndOf="@+id/loader"
+        app:layout_constraintTop_toTopOf="@+id/loader" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

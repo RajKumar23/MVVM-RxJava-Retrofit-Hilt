@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="black">#4e4e4e</color>
+    <color name="text_title">#6200EE</color>
+    <color name="text_black">#4e4e4e</color>
+    <color name="svg_black">#4e4e4e</color>
+    <color name="svg_full_white">#FFFFFF</color>
+    <color name="full_white">#FFFFFF</color>
+    <color name="svg_full_black">#4e4e4e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_white">#FFFFFF</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="edit_Text_white">#FFFFFF</color>
+    <color name="gray">#d7d5d5</color>
+    <color name="light_white">#7CE7E6E6</color>
+    <color name="green">#4BB543</color>
+    <color name="red">#FF9494</color>
+    <color name="orange">#ff6700</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="lite_gray">#f1f1f1</color>
+    <color name="bottom_sheet_gray">#FFFFFF</color>
+</resources>
